@@ -1,6 +1,7 @@
 /*REMEMBER TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
 
 /* 👀 This is your data ⬇ */
+// eslint-disable-next-line no-unused-vars
 const originalFlavors = [
     "Banana Nut Fudge",
     "Black Walnut",
@@ -45,8 +46,9 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
-    /*your code here*/
+function copy(array){
+    let arraycopy = [...originalFlavors];
+    return arraycopy;
 }    
 
 
@@ -197,6 +199,7 @@ function getRandomFlavors(/*code here*/){
 }
 
 // NEW DATA ARRAYS FOR STRETCH 2 ⬇️
+// eslint-disable-next-line no-unused-vars
 const newFlavors = [
     "Date night",
     "U.S.S Butterscotch (Stranger Things special)",
@@ -223,6 +226,7 @@ const newFlavors = [
     "Rainbow Swirl"
 ] 
 
+// eslint-disable-next-line no-unused-vars
 const seasonalFlavors = [
     "America's Birthday Cake",
     "Baseball Nut®",
@@ -250,6 +254,7 @@ const seasonalFlavors = [
     "Mango Tango"
 ]
 
+// eslint-disable-next-line no-unused-vars
 const regionalFlavors = [
     "Pink Bubblegum",
     "Caramel Macchiato",
